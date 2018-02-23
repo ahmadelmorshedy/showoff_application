@@ -1,2 +1,26 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+$primary_color: #df3626;
+
+
+.header {
+  background-color: $primary_color;
+  color: #FFFFFF;
+}
+
+.instagram_media{
+  padding: 2%;
+}
+
+.flash_messages{
+  padding-top: 1%;
+}
+
+.image_holder{
+  padding: 1%;
+}
+
+.insta_img{
+  width: 100%;
+}

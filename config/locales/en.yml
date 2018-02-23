@@ -30,4 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  instagram_browser: Instagram browser
+  hello: "Hello there"
+  login_instagram: Login with Instagram
+  flashes:
+    log_in_first: You should login to Instagram first
+    no_media_found: You don't have media in your account 

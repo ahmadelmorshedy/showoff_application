@@ -1,0 +1,7 @@
+<div class="row instagram_media">
+  <% for media_item in @recent_media %>
+      <div class="col-xs-1 col-lg-2 col-md-2 col-xs-4 image_holder">
+        <%= image_tag media_item.images.thumbnail.url, class: "insta_img" %>
+      </div>
+  <% end %>
+</div>
