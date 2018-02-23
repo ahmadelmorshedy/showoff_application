@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-lg12 col-md12 col-xs12 text-center agination-centered" >
-    <%= link_to image_tag('instagram-screenshot', title: t('login_instagram')), Instagram.authorize_url(:redirect_uri => ENV['CALLBACK_URL']) %>
+    <%= link_to image_tag(asset_path('instagram-screenshot.png'), title: t('login_instagram')), Instagram.authorize_url(:redirect_uri => ENV['CALLBACK_URL']) %>
     <h3><%= t('login_instagram') %></h3>
   </div>
 </div>
